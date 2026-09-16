@@ -45,3 +45,18 @@ This project develops and evaluates machine learning models to predict Spotify t
 Spotify_Popularity_Prediction.ipynb   # Main notebook
 dataset.csv                           # Dataset
 ```
+## Results
+
+- Random Forest achieved a test **R² ≈ 0.40**
+- **RMSE ≈ 15.1**
+- Feature importance analysis identified instrumentalness, duration, loudness, energy, and acousticness as the most influential predictors.
+
+## Visualizations
+
+### Actual vs. Predicted Popularity
+
+![Actual vs Predicted](actual_vs_predicted.png)
+
+### Top Feature Importances
+
+![Feature Importance](feature_importance.png)
